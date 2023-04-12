@@ -5,7 +5,7 @@
       "^.+\\.[t|j]sx?$": "babel-jest"
     }
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript interpretation of Colin Percival's BSDiff4, based on Ilan Schnell's bsdiff4. ",
   "main": "bsdiff4.js",
   "type": "module",
