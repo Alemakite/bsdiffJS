@@ -87,12 +87,12 @@ export async function readPatch(patch) {
 ///////////////////////////////////////////////////////////////////
 export async function diff(oldData, newData) {
   try {
-    const delta = await do_diff({
-      oldData: oldData,
-      oldDataLength: oldData.length,
-      newData: newData,
-      newDataLength: newData.length,
-    });
+    const delta = await do_diff(
+      oldData,
+      oldData.length,
+      newData,
+      newData.length
+    );
     const patch = await writePatch({
       controlArrays: delta[0],
       bdiff: delta[1],
