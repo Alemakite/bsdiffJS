@@ -1,0 +1,31 @@
+{
+  "name": "bsdiffjs",
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "version": "1.0.0",
+  "description": "A JavaScript interpretation of Colin Percival's BSDiff4, based on Ilan Schnell's bsdiff4. ",
+  "main": "bsdiff4.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alemakite/WebUSB-DeltaUpdate.git"
+  },
+  "author": "Peter Kosek <ipkosek@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/Alemakite/WebUSB-DeltaUpdate",
+  "dependencies": {
+    "jest": "^29.5.0",
+    "snappyjs": "^0.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.21.2",
+    "@babel/preset-env": "^7.21.4"
+  }
+}
